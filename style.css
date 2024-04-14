@@ -27,7 +27,7 @@ body{
 
 .left-container{
     padding: 10px;
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
@@ -36,20 +36,83 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
 }
 
 .left-content h1{
     font-size: 2.3rem;
     color:hsl(234, 29%, 20%);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .left-content p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: hsl(235, 18%, 26%);
     font-weight: 500;
-    margin-top: 6px;
+}
+
+.list-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 13px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list-item img{
+    margin-right: 10px;
+    width: 6%;
+}
+
+.list-item p{
+    font-size: 0.8rem;
+    color: hsl(235, 18%, 26%);
+    font-weight: 500;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color:hsl(234, 29%, 20%);
+}
+
+form input{
+    margin-top: 5px;
+    border: 1.5px solid hsl(231, 7%, 60%);
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    outline: none;
+    color:hsl(234, 29%, 20%);
+}
+
+form button{
+    background: hsl(234, 29%, 20%);
+    margin-top: 15px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-weight: 500;
+}
+
+::placeholder{
+    font-size: 0.8rem;
+    color: hsl(231, 7%, 60%);
 }
 
 .right-container{
@@ -68,12 +131,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
-    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+    transition: 0.4s ease-in-out;
 }
 
 .right-container .img-content:hover{
-    border-radius: 0px;
+    border-radius: 0px 0px 0px 0px;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
