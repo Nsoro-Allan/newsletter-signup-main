@@ -194,7 +194,7 @@ form button:hover{
     color: hsl(234, 29%, 20%);
 }
 
-.success-content a{
+a{
     background: hsl(234, 29%, 20%);
     margin-top: 25px;
     padding: 12px 15px;
@@ -208,7 +208,7 @@ form button:hover{
     transition: 0.3s ease-in-out;
 }
 
-.success-content a:hover{
+a:hover{
     cursor: pointer;
     transition: 0.3s ease-in-out;
     background: linear-gradient(to right, hsl(352, 100%, 67%), hsl(4, 100%, 67%));
