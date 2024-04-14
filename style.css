@@ -10,4 +10,50 @@ body{
     background: hsl(235, 18%, 26%);
 }
 
-.main
+.main-container{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+
+.left-container{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+
+.right-container .img-content{
+    width: 100%;
+    height: 70dvh;
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.right-container .img-content:hover{
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
