@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Roboto", sans-serif;
     background: hsl(235, 18%, 26%);
@@ -17,7 +21,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background: hsl(0, 0%, 100%);
-    border-radius: 15px;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,3 +144,60 @@ form button{
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
+
+.success-container{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+.success-content{
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.success-content img{
+    width: 13%;
+}
+
+.success-content h1{
+    margin-top: 15px;
+    color: hsl(234, 29%, 20%);
+}
+
+.success-content p{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    line-height: 20px;
+    color: hsl(235, 18%, 26%);
+}
+
+.success-content p strong{
+    color: hsl(234, 29%, 20%);
+}
+
+.success-content a{
+    background: hsl(234, 29%, 20%);
+    margin-top: 25px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+
