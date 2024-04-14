@@ -32,6 +32,26 @@ body{
     flex-direction: column;
 }
 
+.left-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.left-content h1{
+    font-size: 2.3rem;
+    color:hsl(234, 29%, 20%);
+    margin-bottom: 10px;
+}
+
+.left-content p{
+    font-size: 0.9rem;
+    color: hsl(235, 18%, 26%);
+    font-weight: 500;
+    margin-top: 6px;
+}
+
 .right-container{
     width: 50%;
     display: flex;
